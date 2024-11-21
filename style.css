@@ -1,0 +1,162 @@
+@font-face {
+	font-family: 'Gilroy';
+	src: url(./fonts/Gilroy-Light.otf);
+}
+
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.main__content {
+	max-width: 1920px;
+	background-color: #fff;
+	font-family: 'Gilroy';
+	padding-left: 10dvh;
+}
+
+.main__about_us {
+	max-width: 1920px;
+	background-color: #fff;
+	font-family: 'Gilroy';
+	padding-left: 10dvh;
+}
+
+header {
+	margin: 0 40px;
+	padding: 40px 0px 40px 20px;
+	max-width: 100%;
+	text-align: center;
+}
+
+.menu {
+	display: flex;
+	margin: 0;
+	padding: auto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	font-family: 'Gilroy';
+	justify-content: space-between;
+}
+
+.menu__list {
+	display: flex;
+	list-style: none;
+
+}
+
+.menu__list__item {
+	justify-content: space-between;
+}
+
+.menu__link {
+	color: #000;
+	text-decoration: none;
+	justify-content: space-between;
+	padding: 10px 10px 0;
+}
+
+.menu__logo {
+	display: inline;
+	margin: 0;
+	justify-content: space-between;
+	justify-self: left;
+}
+
+.menu__logo__text {
+	display: inline;
+	text-align: center;
+	align-items: center;
+}
+
+.menu__logo span {
+	font-family: 'Gilroy';
+	color: #F25822;
+}
+
+.menu__link--other_color {
+	color: #F25822;
+	text-decoration: none;
+}
+
+.menu__button {
+	margin: auto;
+	background-color: #F25822;
+	font-size: 14px;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+	border-radius: 30px;
+}
+
+.main__info {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.main__features {
+	width: 1920;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.main__title h1 {
+	margin-top: 10px;
+	color: #000;
+	font-family: 'Gilroy';
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 800;
+	text-align: left;
+}
+
+.main__about_us .main__info {
+	display: flex;
+	justify-content: center;
+	margin: 100px 0;
+}
+
+.main__about_us .main__title h2 {
+	margin-top: 10px;
+	color: #000;
+	font-family: 'Gilroy';
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 600;
+	text-align: left;
+}
+
+.text__main__page {
+	margin-top: 40px;
+	color: #888;
+	font-family: 'Gilroy';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+}
+
+
+.btn__panel__main__page button {
+	border-radius: 5px;
+	background: #F25822;
+	border: none;
+	color: #fff;
+	font-family: 'Gilroy';
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 600;
+	padding: 15px, 30px;
+	margin-top: 50px;
+}
+
+.btn__w__v {
+	background: #fff;
+	color: #888;
+	font-family: 'Gilroy';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+}
